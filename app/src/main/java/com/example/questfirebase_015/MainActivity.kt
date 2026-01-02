@@ -41,7 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    FirebaseTheme {
+    QuestFirebase_015Theme {
         Greeting("Android")
     }
 }
