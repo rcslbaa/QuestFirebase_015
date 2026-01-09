@@ -56,3 +56,10 @@ fun HostNavigasi(
                 type = NavType.StringType
             })
         ) {
+            EditSiswaScreen(
+                navigateBack = { navController.navigate(DestinasiHome.route) },
+                onNavigateUp = { navController.navigateUp() }
+            )
+        }
+    }
+}
